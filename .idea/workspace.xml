@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary_search/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insertion_sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/insertion_sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge_sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge_sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge_sort/PrintArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selection_sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selection_sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selection_sort/Swap.java" afterDir="false" />
+    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="inital commit of searching and sorting algorithms">
+      <change afterPath="$PROJECT_DIR$/src/skipping_algorithm/JumpSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/skipping_algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +24,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2oGXpTLy3PPIq538GwxUJL1GmzY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -61,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.skipping_algorithm.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="merge_sort.Main" />
       <module name="merge_sort" />
@@ -114,8 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="skipping_algorithm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="skipping_algorithm.Main" />
+      <module name="merge_sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="skipping_algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.skipping_algorithm.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.binary_search.Main" />
         <item itemvalue="Application.insertion_sort.Main" />
@@ -132,11 +135,52 @@
       <option name="presentableId" value="Default" />
       <updated>1730497069082</updated>
       <workItem from="1730497070067" duration="4587000" />
-      <workItem from="1730502309819" duration="1196000" />
+      <workItem from="1730502309819" duration="1557000" />
+      <workItem from="1730504103515" duration="731000" />
     </task>
+    <task id="LOCAL-00001" summary="inital commit of searching and sorting algorithms">
+      <option name="closed" value="true" />
+      <created>1730503549224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730503549224</updated>
+    </task>
+    <task id="LOCAL-00002" summary="inital commit of searching and sorting algorithms">
+      <option name="closed" value="true" />
+      <created>1730503618049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730503618049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="inital commit of searching and sorting algorithms">
+      <option name="closed" value="true" />
+      <created>1730503735524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730503735524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inital commit of searching and sorting algorithms" />
+    <option name="LAST_COMMIT_MESSAGE" value="inital commit of searching and sorting algorithms" />
   </component>
 </project>
