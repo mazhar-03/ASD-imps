@@ -1,5 +1,4 @@
 package insertion_sort;
-import selection_sort.Swap;
 
 import static selection_sort.Swap.swap;
 
