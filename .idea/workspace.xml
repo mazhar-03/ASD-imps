@@ -61,7 +61,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.binary_search.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="merge_sort.Main" />
       <module name="merge_sort" />
@@ -116,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.binary_search.Main" />
         <item itemvalue="Application.insertion_sort.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.selection_sort.Main" />
       </list>
     </recent_temporary>

@@ -10,13 +10,11 @@ public class MergeSort {
         }
         return arr;
     }
-    private static int[] merge(int[] arr, int l, int m, int r){
+    private static void merge(int[] arr, int l, int m, int r){
         int[] arr1 = new int[m-l+1];
         int[] arr2 = new int[r-m];
 
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = arr[l+i];
-        }
+        System.arraycopy(arr, l, arr1, 0, arr1.length);
         for (int i = 0; i < arr2.length; i++) {
             arr2[i] = arr[m+1+i];
         }
@@ -47,6 +45,5 @@ public class MergeSort {
             j++;
             k++;
         }
-        return arr;
     }
 }
