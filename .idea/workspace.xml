@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="inital commit of searching and sorting algorithms">
+    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="used getInts() like a senior.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binary_search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skipping_algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/skipping_algorithm/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,8 +119,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.skipping_algorithm.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.binary_search.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.insertion_sort.Main" />
         <item itemvalue="Application.selection_sort.Main" />
       </list>
@@ -136,7 +136,7 @@
       <updated>1730497069082</updated>
       <workItem from="1730497070067" duration="4587000" />
       <workItem from="1730502309819" duration="1557000" />
-      <workItem from="1730504103515" duration="1129000" />
+      <workItem from="1730504103515" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="inital commit of searching and sorting algorithms">
       <option name="closed" value="true" />
@@ -170,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730505125014</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="used getInts() like a senior.">
+      <option name="closed" value="true" />
+      <created>1730505446054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730505446054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit of searching and sorting algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit of searching and sorting algorithms" />
+    <MESSAGE value="used getInts() like a senior." />
+    <option name="LAST_COMMIT_MESSAGE" value="used getInts() like a senior." />
   </component>
 </project>
