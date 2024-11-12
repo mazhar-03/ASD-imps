@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="used getInts() like a senior.">
+    <list default="true" id="0735271b-8884-4b5d-9313-9142d8c46b90" name="Changes" comment="used binary numbers">
+      <change afterPath="$PROJECT_DIR$/src/quick_sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quick_sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/merge_sort/PrintArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/merge_sort/PrintArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +30,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2oGXpTLy3PPIq538GwxUJL1GmzY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +48,7 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mazha/OneDrive/Pulpit/ASD/searching_sorting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.skipping_algorithm.Main">
+  <component name="RunManager" selected="Application.quick_sort.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="merge_sort.Main" />
       <module name="merge_sort" />
@@ -90,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selection_sort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selection_sort.Main" />
+    <configuration name="quick_sort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quick_sort.Main" />
       <module name="merge_sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selection_sort.*" />
+          <option name="PATTERN" value="quick_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.quick_sort.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.skipping_algorithm.Main" />
         <item itemvalue="Application.binary_search.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.insertion_sort.Main" />
-        <item itemvalue="Application.selection_sort.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +142,8 @@
       <updated>1730497069082</updated>
       <workItem from="1730497070067" duration="4587000" />
       <workItem from="1730502309819" duration="1557000" />
-      <workItem from="1730504103515" duration="1476000" />
+      <workItem from="1730504103515" duration="1824000" />
+      <workItem from="1731411932248" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="inital commit of searching and sorting algorithms">
       <option name="closed" value="true" />
@@ -178,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730505446054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="used binary numbers">
+      <option name="closed" value="true" />
+      <created>1730505823785</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730505823785</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inital commit of searching and sorting algorithms" />
     <MESSAGE value="used getInts() like a senior." />
-    <option name="LAST_COMMIT_MESSAGE" value="used getInts() like a senior." />
+    <MESSAGE value="used binary numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="used binary numbers" />
   </component>
 </project>
